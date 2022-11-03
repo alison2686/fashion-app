@@ -5,16 +5,18 @@ import Home from './Pages/Home'
 import Cart from './Pages/Cart'
 import SingleProduct from './Pages/SingleProduct'
 import Sales from './Pages/Sales'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/single-product' element={<SingleProduct />} />
-          <Route path='/sale' element={<Sales />} />
+          <Route path='/sales' element={<Sales />} />
         </Routes>
       </BrowserRouter>
     </div>
