@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Home.css'
+import Products from '../Components/Products/Products'
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
         <h3>Jackets KLS</h3>
       </div>
       <div className='homeSecondCon'>
-        product...
+        <Products />
       </div>
     </div>
   )
