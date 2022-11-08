@@ -4,16 +4,16 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <div>
+    <div className='navCon'>
+      <div className='logoCon'>
         <img src={Logo} alt='fable logo' />
       </div>
-      <div>
-        <p>Collections</p>
-        <p>Customer</p>
-        <p>Sales</p>
+      <div className='midCon'>
+        <p>COLLECTIONS</p>
+        <p>CUSTOMER</p>
+        <p>SALES</p>
       </div>
-      <div>Items</div>
+      <div className='lastCon'>ITEMS</div>
     </div>
   )
 }
