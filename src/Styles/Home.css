@@ -1,15 +1,20 @@
-.homeFirstCon h1{
+.homeCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: 'Basis Grotesque Pro';
+}
+
+.homeFirstCon h1{
     font-style: normal;
     font-weight: 500;
     font-size: 46px;
     line-height: 140%;
     color: #080B13;
-    text-align: center;
 }
 
 .homeFirstCon h3{
-    font-family: 'Basis Grotesque Pro';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
