@@ -11,6 +11,8 @@ const Home = () => {
       </div>
       <div className='homeSecondCon'>
         <Products />
+        <Products />
+        <Products />
       </div>
     </div>
   )
