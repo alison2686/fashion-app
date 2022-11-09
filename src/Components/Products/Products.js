@@ -1,17 +1,16 @@
 import React from 'react'
 import './Products.css'
-import Foto from '../../Assests/Foto.png'
 
-
-const Products = () => {
+const Products = (props) => {
+    console.log(props.data)
   return (
     <div className='productCon'>
         <div className='productFirstCon'>
-            <img src={Foto} alt='Foto'/>
+            <img src={props.data.img} alt='Foto'/>
         </div>
         <div className='productSecCon'>
-            <h3>Jacket KLS Beige</h3>
-            <h1>$105</h1>
+            <h3>{props.data.name}</h3>
+            <h1>{props.data.price}</h1>
         </div>
     </div>
   )

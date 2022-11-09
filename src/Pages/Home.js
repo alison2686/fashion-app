@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/Home.css'
 import Products from '../Components/Products/Products'
+import ProductData from '../Utils/productData'
 
 const Home = () => {
   return (
@@ -10,9 +11,11 @@ const Home = () => {
         <h3>Jackets KLS</h3>
       </div>
       <div className='homeSecondCon'>
-        <Products />
-        <Products />
-        <Products />
+        {
+          ProductData.map((item, index) => (
+            <Products data={item} key={index} />
+          ))
+        }
       </div>
     </div>
   )
