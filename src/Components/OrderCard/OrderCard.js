@@ -1,10 +1,11 @@
 import React from 'react'
 import OrderFoto from '../../Assests/Rectangle 65.png'
+import './OrderCard.css'
 
 const OrderCard = () => {
   return (
-    <div>
-      <div>
+    <div className='orderCardGenCon'>
+      <div className='orderCardImgCon'>
         <img src={OrderFoto} alt='order' />
       </div>
       <div>

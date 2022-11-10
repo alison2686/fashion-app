@@ -1,0 +1,14 @@
+.orderCardGenCon{
+    display: flex;
+}
+
+.orderCardImgCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 601px;
+    height: 203px;
+    backckground: #FFFFFF;
+}

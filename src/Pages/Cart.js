@@ -6,11 +6,11 @@ import '../Styles/Cart.css'
 
 const Cart = () => {
   return (
-    <div>
-      <div>
+    <div className='cartCon'>
+      <div className='formCon'>
         <Form />
       </div>
-      <div>
+      <div className='orderCardCon'>
         <div>
           <OrderCard />
         </div>
