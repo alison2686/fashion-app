@@ -1,8 +1,23 @@
 import React from 'react'
+import Form from '../Components/Form/Form'
+import OrderCard from '../Components/OrderCard/OrderCard'
+import Sum from '../Components/Sum/Sum'
 
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <div>
+      <div>
+        <Form />
+      </div>
+      <div>
+        <div>
+          <OrderCard />
+        </div>
+        <div>
+          <Sum />
+        </div>
+      </div>
+    </div>
   )
 }
 
