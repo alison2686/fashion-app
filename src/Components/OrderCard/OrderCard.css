@@ -2,13 +2,8 @@
     display: flex;
 }
 
-.orderCardImgCon{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-    width: 601px;
+.orderCardImgCon {
+    width: 183px;
     height: 203px;
-    backckground: #FFFFFF;
+    background: #F1F1EF;
 }

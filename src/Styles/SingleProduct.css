@@ -1,4 +1,5 @@
 .sinProdCon{
+    font-family: 'Basis Grotesque Pro';
     display: flex;
     justify-content: space-between;
     margin: 2% 4%;
@@ -26,7 +27,6 @@
 }
 
 .sinProdHeading{
-    font-family: 'Basis Grotesque Pro';
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -35,7 +35,6 @@
 }
 
 .sinProdPrice{
-    font-family: 'Basis Grotesque Pro';
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -43,7 +42,6 @@
 }
 
 .sinProdBtn{
-    font-family: 'Basis Grotesque Pro';
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +54,6 @@
 }
 
 .sinProdDesHeading{
-    font-family: 'Basis Grotesque Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -65,7 +62,6 @@
 }
 
 .sinProdDes{
-    font-family: 'Basis Grotesque Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
