@@ -6,7 +6,7 @@
 }
 
 .sinProdDesCon{
-    width: 40%;
+    width: 48%;
 }
 
 .productTag{
@@ -39,18 +39,20 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 135%;
+    color: #000000;
 }
 
 .sinProdBtn{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
     width: 232px;
     height: 50px;
     background: rgba(60, 55, 55, 0.8);
     opacity: 0.5; 
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
 }
 
 .sinProdDesHeading{
