@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import '../Styles/Home.css'
 import Products from '../Components/Products/Products'
 import ProductData from '../Utils/productData'
+import axios from 'axios'
 
 const Home = () => {
+  const [product, setProduct] = useState([])
+
+  useEffect(() => {
+    
+  }, [])
+
   return (
     <div className='homeCon'>
       <div className='homeFirstCon'>
