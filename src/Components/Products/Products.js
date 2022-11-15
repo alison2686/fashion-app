@@ -5,11 +5,11 @@ const Products = ({ data }) => {
   return (
     <div className='productCon'>
         <div className='productFirstCon'>
-            <img src={data.img} alt='Foto'/>
+            <img src={data.image[0]} alt='Foto'/>
         </div>
         <div className='productSecCon'>
             <h3>{data.name}</h3>
-            <h1>{data.price}</h1>
+            <h1>${data.price}</h1>
         </div>
     </div>
   )

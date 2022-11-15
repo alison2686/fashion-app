@@ -1,15 +1,24 @@
 import React, { useState, useEffect } from 'react'
 import '../Styles/Home.css'
 import Products from '../Components/Products/Products'
-import ProductData from '../Utils/productData'
+// import ProductData from '../Utils/productData'
 import axios from 'axios'
 
 const Home = () => {
   const [product, setProduct] = useState([])
 
   useEffect(() => {
-    
+    (async () => {
+      try{
+        const data = await axios.get('https://charming-ray-flannel-nightgown.cyclic.app/api/products')
+        setProduct(data.data.data)
+      } catch (error) {
+        console.log(error)
+      }
+    })()
   }, [])
+
+  console.log('products:', product)
 
   return (
     <div className='homeCon'>
@@ -19,7 +28,7 @@ const Home = () => {
       </div>
       <div className='homeSecondCon'>
         {
-          ProductData.map((item, id) => (
+          product.map((item, id) => (
             <Products data={item} key={id} />
           ))
         }
