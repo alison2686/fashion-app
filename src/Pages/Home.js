@@ -3,6 +3,7 @@ import '../Styles/Home.css'
 import Products from '../Components/Products/Products'
 // import ProductData from '../Utils/productData'
 import axios from 'axios'
+import {Link} from 'react-router-dom'
 
 const Home = () => {
   const [product, setProduct] = useState([])
@@ -29,7 +30,9 @@ const Home = () => {
       <div className='homeSecondCon'>
         {
           product.map((item, id) => (
-            <Products data={item} key={id} />
+            <Link to='/single-product'>
+              <Products data={item} key={id} />
+            </Link>
           ))
         }
       </div>
